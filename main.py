@@ -77,6 +77,10 @@ if __name__=="__main__":
             except Exception as e:
                 print(f"An unspecified error occurred: {e}")
                 
+        elif choice=="Create VM from iso file":
+            json_config_path = questionary.path("Enter the json config file path").ask()
+            args['json_config_path']=json_config_path
+            create_from_iso.main(args)
 
         elif choice=="List datastore":
             json = questionary.confirm("Output to JSON ?").ask()
