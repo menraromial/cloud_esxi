@@ -1,0 +1,12 @@
+{
+    "iso_path":"E:\\OVA-Linux\\Core-5.4.iso",
+    "num_cpus":1,
+    "vm_name":"test_iso",
+    "memory":1024,
+    "unit_number":0,
+    "capacity":20971520,
+    "disk_mode":"persistent",
+    "log_directory":null,
+    "snapshot_directory":null,
+    "suspend_directory":null
+}
